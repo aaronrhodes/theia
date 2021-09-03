@@ -1,5 +1,14 @@
 # Change Log
 
+## v1.19.0
+
+<a name="breaking_changes_1.19.0">[Breaking Changes:](#breaking_changes_1.19.0)</a>
+
+- [electron] `ElectronMainMenuFactory` now inherits from `BrowserMainMenuFactory` and its methods have been renamed. [#10044](https://github.com/eclipse-theia/theia/pull/10044)
+  - renamed `handleDefault` to `handleElectronDefault`
+  - renamed `createContextMenu` to `createElectronContextMenu`
+  - renamed `createMenuBar` to `createElectronMenuBar`
+
 ## v1.18.0 - 9/30/2021
 
 [1.18.0 Milestone](https://github.com/eclipse-theia/theia/milestone/24)

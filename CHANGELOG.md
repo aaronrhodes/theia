@@ -6,6 +6,11 @@
 
 - [plugin-ext] add additional startup logging for plugin starting and application loading [#10116](https://github.com/eclipse-theia/theia/pull/10116) - Contributed on behalf of STMicroelectronics
 
+<a name="breaking_changes_1.19.0">[Breaking Changes:](#breaking_changes_1.19.0)</a>
+
+- [output] moved `output-channel` from `common` to `browser` [#10154](https://github.com/eclipse-theia/theia/pull/10154)
+- [output] moved `output-preferences` from `common` to `browser` [#10154](https://github.com/eclipse-theia/theia/pull/10154)
+
 ## v1.18.0 - 9/30/2021
 
 [1.18.0 Milestone](https://github.com/eclipse-theia/theia/milestone/24)

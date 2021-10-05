@@ -73,7 +73,11 @@ export default async function downloadPlugins(options: DownloadPluginsOptions = 
     const {
         packed = false,
         ignoreErrors = false,
-        apiVersion = '1.50.0',
+        /**
+         * The API version should match `VSCODE_DEFAULT_API_VERSION`.
+         * The specified version is used to resolve extension-packs to a version the framework supports.
+         */
+        apiVersion = '1.53.2',
         apiUrl = 'https://open-vsx.org/api'
     } = options;
 

@@ -212,7 +212,7 @@ function theiaCli(): void {
                 'api-version': {
                     alias: 'v',
                     describe: 'Supported API version for plugins',
-                    default: '1.50.0'
+                    default: '1.53.2' // Should default to `VSCODE_DEFAULT_API_VERSION`.
                 },
                 'api-url': {
                     alias: 'u',
